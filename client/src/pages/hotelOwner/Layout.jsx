@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../components/hotelOwner/Navbar'
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <div className='flex flex-col h-screen'>
+      <Navbar />
+
+    </div>
   )
 }
 
